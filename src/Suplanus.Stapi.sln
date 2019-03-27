@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.Stapi", "Suplanus.Stapi\Suplanus.Stapi.csproj", "{09742586-ED50-435A-8666-3C191D55E33F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suplanus.Stapi.Example", "Suplanus.Stapi.Example\Suplanus.Stapi.Example.csproj", "{F033C51C-190E-47EC-AE9B-DE21ADE8C299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09742586-ED50-435A-8666-3C191D55E33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09742586-ED50-435A-8666-3C191D55E33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09742586-ED50-435A-8666-3C191D55E33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09742586-ED50-435A-8666-3C191D55E33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F033C51C-190E-47EC-AE9B-DE21ADE8C299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F033C51C-190E-47EC-AE9B-DE21ADE8C299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F033C51C-190E-47EC-AE9B-DE21ADE8C299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F033C51C-190E-47EC-AE9B-DE21ADE8C299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6653EC1-63AC-4E9F-BA5E-6795A435B475}
+	EndGlobalSection
+EndGlobal

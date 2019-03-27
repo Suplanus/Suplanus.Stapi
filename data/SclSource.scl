@@ -1,0 +1,26 @@
+﻿FUNCTION_BLOCK "CheckArray"
+{ S7_Optimized_Access := 'TRUE' }
+VERSION : 0.1
+   VAR_INPUT 
+      "array" : Array[0..5] of Int;
+      Check : Int;
+   END_VAR
+
+   VAR_OUTPUT 
+      found : Bool;
+   END_VAR
+
+   VAR_TEMP 
+      i : Int;
+   END_VAR
+
+
+BEGIN
+	FOR #i := 0 TO 4 DO
+	    IF #array[#i] = #Check THEN
+	        #found := TRUE;
+	        EXIT;
+	    END_IF;
+	END_FOR;
+END_FUNCTION_BLOCK
+
