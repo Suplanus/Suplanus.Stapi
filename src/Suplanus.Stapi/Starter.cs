@@ -24,7 +24,7 @@ namespace Suplanus.Stapi
       return new TiaPortal(mode);
     }
 
-    public static void SetTiaPortalFirewall()
+    public static void SetTiaPortalFirewall(Assembly assembly)
     {
       // Check if admin
       WindowsIdentity identity = WindowsIdentity.GetCurrent();
@@ -36,7 +36,6 @@ namespace Suplanus.Stapi
         return;
       }
 
-      Assembly assembly = Assembly.GetCallingAssembly();
       string exePath = assembly.Location;
 
       // Get hash

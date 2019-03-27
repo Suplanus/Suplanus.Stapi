@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using Siemens.Engineering;
 using Siemens.Engineering.HW;
 using Siemens.Engineering.SW;
@@ -26,7 +27,8 @@ namespace Suplanus.Stapi.Example
     static void Main()
     {
       Console.WriteLine("Set firewall...");
-      Starter.SetTiaPortalFirewall();
+      Assembly assembly = Assembly.GetExecutingAssembly();
+      Starter.SetTiaPortalFirewall(assembly);
       TiaPortal tiaPortal = null;
       try
       {
